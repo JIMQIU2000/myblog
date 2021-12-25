@@ -1,0 +1,59 @@
+@font-face {
+    font-family: Teko-Regular;
+    src: url(../font/Teko-Regular.ttf);
+}
+
+body{
+    font-family: Teko-Regular;
+    background-color: rgb(47, 47, 47);
+    font-size: 30px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.top_menu{
+    width: 100%;
+    background-color: #F8F005;
+}
+
+.top_menu p{
+    margin-left: 80%;
+}
+
+.top_menu a{
+    color: #E4007F;
+}
+
+table{
+    width:80%; 
+    margin:20px auto;
+    border:1px solid;
+    border-collapse: collapse;
+}
+
+#tr1{
+    background-color: #00E6F6;
+}
+
+#ft{
+    color: #000;
+}
+
+td{
+    text-align: center;
+    border: 1px solid grey;
+    color: #00E6F6;
+}
+
+a{
+    color: aliceblue;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #00E6F6;
+    transition: 0.2s ease-in-out;
+}

@@ -1,0 +1,50 @@
+@font-face {
+    font-family: Teko-Regular;
+    src: url(../font/Teko-Regular.ttf);
+}
+.card {
+    width: 55%;
+    background-color: #fff;
+    overflow: hidden;
+    background: linear-gradient(45deg, transparent 25px, #F8F005 0);
+    padding: 3px;
+    margin: 50px auto;
+}
+
+.image {
+    height: 200px;
+    margin: 4px;
+}
+
+.image img {
+    display: block;
+    width: 100%;
+    height: inherit;
+    object-fit: cover;
+}
+
+.content {
+    padding: 2rem 1.8rem;
+}
+
+h4 {
+    margin: 0 0 1rem;
+    font-size: 3rem;
+    line-height: 1.5rem;
+    font-family: Teko-Regular;
+}
+
+h4 a{
+    color: black;
+}
+
+h4 a:hover{
+    color: #00E6F6;
+    transition: .2s ease-in-out;
+}
+
+.description {
+    font-size: 1.5rem;
+    line-height: 1.4rem;
+    font-family: Teko-Regular;
+}

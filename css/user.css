@@ -1,0 +1,42 @@
+@font-face {
+    font-family: Teko-Regular;
+    src: url(../font/Teko-Regular.ttf);
+}
+
+.user {
+    font-family: Teko-Regular;
+    margin: 50px 30px;
+    position: fixed;
+    text-align: center;
+    background: linear-gradient(-135deg, transparent 15px, #00E6F6 0);
+    width: 300px;
+    height: 90px;
+    font-size: 30px;
+}
+
+.user a{
+    color: #000;
+    text-align: left;
+    font-size: 25px;
+    margin-right: 125px;
+}
+
+.user a:hover{
+    color: aliceblue;
+
+}
+
+h5 {
+    color: black;
+    margin: 3px 10px;
+    text-align: center;
+    font-size: 32px;
+}
+
+hr {
+    height: 1px;
+    width: 80%;
+    border: none;
+    margin: -5px 30px;
+    border-top: 2px solid #000;
+}
